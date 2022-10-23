@@ -8,7 +8,7 @@ import '../../styles/style.scss'
 
 const DisplayJoke = () => {
 
-	const apiUrl = "https://karljoke.herokuapp.com/jokes/random"
+	const apiUrl = "https://official-joke-api.appspot.com/jokes/random"
 	const [btnClicked, setClicked] = useState(false);
 	const [apiData, setApiData] = useState("");
 	const [isActive, setActive] = useState(false);
